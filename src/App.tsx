@@ -4,7 +4,7 @@ import { useStyles } from './styles/mainStyles'
 import Content from './components/Content/Content'
 import Header from './components/Header'
 import Menu from './components/Menu/Menu'
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
+import {Route, Switch, BrowserRouter as Router, HashRouter} from 'react-router-dom'
 
 function App() {
   const classes = useStyles()
@@ -15,6 +15,7 @@ function App() {
   }
 
   return (
+      <HashRouter>
     <Router>
       <div className={classes.root}>
         <CssBaseline />
@@ -30,6 +31,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+      </HashRouter>
   )
 }
 
