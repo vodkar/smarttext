@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/smartxt/static/js/main.c86f37fe.chunk.js",
+    "main.js.map": "/smartxt/static/js/main.c86f37fe.chunk.js.map",
+    "runtime-main.js": "/smartxt/static/js/runtime-main.d6c7fc4f.js",
+    "runtime-main.js.map": "/smartxt/static/js/runtime-main.d6c7fc4f.js.map",
+    "static/js/2.9d5ae9a6.chunk.js": "/smartxt/static/js/2.9d5ae9a6.chunk.js",
+    "static/js/2.9d5ae9a6.chunk.js.map": "/smartxt/static/js/2.9d5ae9a6.chunk.js.map",
+    "index.html": "/smartxt/index.html",
+    "static/js/2.9d5ae9a6.chunk.js.LICENSE.txt": "/smartxt/static/js/2.9d5ae9a6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6c7fc4f.js",
+    "static/js/2.9d5ae9a6.chunk.js",
+    "static/js/main.c86f37fe.chunk.js"
+  ]
+}
