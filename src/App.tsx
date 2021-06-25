@@ -1,22 +1,28 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { CssBaseline } from '@material-ui/core'
 import { useStyles } from './styles/mainStyles'
 import Content from './components/Content/Content'
 import Header from './components/Header'
 import Menu from './components/Menu/Menu'
-import {Route, Switch, BrowserRouter as Router, HashRouter} from 'react-router-dom'
+import {Route, Switch, BrowserRouter as Router, HashRouter, useHistory} from 'react-router-dom'
 
 function App() {
   const classes = useStyles()
   const [open, setOpen] = React.useState(false)
+  let history = useHistory();
+
+  // useEffect(() => {
+  //   history.push("/text_editor");
+  // }, [history])
+
 
   const toggleOpenMenu = () => {
     setOpen(!open)
   }
 
   return (
-      <HashRouter>
-    <Router>
+
+      <Router>
       <div className={classes.root}>
         <CssBaseline />
         <Header open={open} toggleOpenMenu={toggleOpenMenu} />
@@ -31,7 +37,6 @@ function App() {
         </Switch>
       </div>
     </Router>
-      </HashRouter>
   )
 }
 
