@@ -5,9 +5,9 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-      <HashRouter basename="/text_editor">
+      {/*<HashRouter basename="/text_editor">*/}
           <App />
-      </HashRouter>
+      {/*</HashRouter>*/}
   </React.StrictMode>,
   document.getElementById('root')
 );
