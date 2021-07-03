@@ -81,7 +81,9 @@ export const useStyles = makeStyles((theme) => ({
   fixedHeight: {
     height: 500,
   },
-
+  fixedHeightForParser: {
+    height: 200,
+  },
   textarea: {
     width: '100%',
     height: 200,

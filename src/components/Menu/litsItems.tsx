@@ -7,21 +7,21 @@ import { Link } from 'react-router-dom'
 
 export const mainListItems = (
   <>
-    {/*<Link to="text_editor">*/}
+    <Link to="text_editor">
       <ListItem button>
         <ListItemIcon>
           <TextFieldsIcon />
         </ListItemIcon>
         <ListItemText primary="Dashboard" />
       </ListItem>
-    {/*</Link>*/}
-    {/*<Link to="parser">*/}
+    </Link>
+    <Link to="parser">
       <ListItem button>
         <ListItemIcon>
           <SearchIcon />
         </ListItemIcon>
         <ListItemText primary="Orders" />
       </ListItem>
-    {/*</Link>*/}
+    </Link>
   </>
 )

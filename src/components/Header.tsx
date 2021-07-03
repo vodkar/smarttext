@@ -3,6 +3,7 @@ import { AppBar, IconButton, Toolbar, Typography } from "@material-ui/core";
 import clsx from "clsx";
 import MenuIcon from "@material-ui/icons/Menu";
 import { useStyles } from "../styles/mainStyles";
+import SearchInput from "./ContentParser/SearchInput";
 
 const Header = ({ open, toggleOpenMenu }: any) => {
   const classes = useStyles();
