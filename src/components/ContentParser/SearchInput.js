@@ -79,17 +79,8 @@ const SearchInput = (setResponse) => {
         }
       });
     }
-    // do {
-    //     let resp = await fetch("http://127.0.0.1:3001/api/search", {
-    //         method: "POST",
-    //         headers: {
-    //           "Content-Type": "application/json",
-    //         },
-    //         body: JSON.stringify({ post: values.post }),
-    //       });
-    // }
+
     get();
-    // globalActions.actions.loadingActions(false);
   };
 
   const handleChange = (prop) => (event) => {

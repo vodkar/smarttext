@@ -36,7 +36,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://localhost:3001/",
+  "proxy": "https://dudley-backbacon-81990.herokuapp.com/",
   "browserslist": {
     "production": [
       ">0.2%",
