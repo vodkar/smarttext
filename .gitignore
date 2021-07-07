@@ -107,3 +107,5 @@ yarn.lock
 image_search
 .md
 tsconfig.json
+
+.prettierrc
